@@ -1,23 +1,15 @@
 #include <QCoreApplication>
 #include <QDebug>
 #include <QString>
-
 void printLStars(int L);
-
-void print9Hello()
-{
+void print9Hello(){
     qDebug() << "Hello from function print9Hello";
-
     for (int i=0; i<9; i++){
-        printLStars(i);
-    }
+        printLStars(i);    }
     qDebug() << "Exit from function print9Hello";
 }
 
-
-
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]){
     QCoreApplication a(argc, argv);
     print9Hello();
     /*
@@ -41,11 +33,9 @@ int main(int argc, char *argv[])
     qDebug() << "End";
     return a.exec();
 }
-
 void printLStars(int L){
     QString qsOneRow;
     for (int i=0; i<L; i++){
-        qsOneRow+='*';
-    }
+        qsOneRow+='*';    }
     qDebug() << qsOneRow;
 }
