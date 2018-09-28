@@ -1,6 +1,6 @@
 # TAG17_ClassWork3
 
-##** Home work ** for _looping and functions_ topic.
+## ** Home work ** for _looping and functions_ topic.
 
 Write a function that prints to console application triangle of 'stars' - *
 
